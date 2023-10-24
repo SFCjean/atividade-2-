@@ -1,11 +1,20 @@
-function tocaSomPom () {document.querySelector('#som_tecla_pow').play();
-
+// Pom ----------------------------------------
+function tocaSom (idElementAudio) {
+    document.querySelector(idElementAudio).play();
 }
 
+const listaDeTeclas = document.querySelectorAll('.tecla');
+
+let contador = 0;
+listaDeTeclas[0].onclick = tocaSomPoM 
+while (contador < 9) {
+    listaDeTeclas[0].onclick = tocaSomPom;
 
 
 
+    contador = contador + 1;
 
-document.querySelector('.tecla_pom');
+console.log(contador);
 
-document.querySelector('#som tecla pow').play();
+console.log(contador);
+}
